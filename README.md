@@ -2,7 +2,7 @@
 ![PyTorch >=1.10](https://img.shields.io/badge/PyTorch->=1.6-blue.svg)
 
 # [ACMMM2022] Dynamic Prototype Mask for Occluded Person Re-Identification
-The official repository for Dynamic Prototype Mask for Occluded Person Re-Identification [[pdf]]()
+The official repository for Dynamic Prototype Mask for Occluded Person Re-Identification [[pdf]](https://arxiv.org/pdf/2207.09046.pdf)
 
 ### Prepare Datasets
 
