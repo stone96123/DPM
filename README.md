@@ -89,7 +89,7 @@ Please kindly cite this paper in your publications if it helps your research:
 Our code is based on [TransReID](https://github.com/damo-cv/TransReID)[1]
 
 ## References
-[1]Shuting He, Hao Luo, Pichao Wang, Fan Wang, Hao Li, and Wei Jiang. 2021. Transreid: Transformer-based object re-identification. In Proceedings of the IEEE/CVF
+[1]Shuting He, Hao Luo, Pichao Wang, Fan Wang, Hao Li, and Wei Jiang. 2021. Transreid: Transformer-based object re-identification. In Proceedings of the IEEE/CVF
 International Conference on Computer Vision. 15013–15022.
 
 ## Contact
