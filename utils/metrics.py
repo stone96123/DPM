@@ -28,7 +28,6 @@ def cosine_single(qf, gf, qm, gm):
     epsilon = 0.00001
     for i in range (qf.shape[0]):
         if i == 0:
-            print(qm[i,:])
             query_vector = F.normalize(qf[i,:].unsqueeze(0))
             gallery_mrtrix = F.normalize(qm[i,:].unsqueeze(0) * F.normalize(gf))
             dist_mat = query_vector.mm(gallery_mrtrix.t())
