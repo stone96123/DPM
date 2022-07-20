@@ -12,15 +12,17 @@ mkdir data
 Download the person datasets [Market-1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view), [DukeMTMC-reID](https://arxiv.org/abs/1609.01775), [Occluded-Duke](https://github.com/lightas/Occluded-DukeMTMC-Dataset), and the [Occluded_REID](https://github.com/wangguanan/light-reid/blob/master/reid_datasets.md), 
 Then unzip them and rename them under the directory like
 
+```
 data
-©À©¤©¤ Occluded_Duke
-©¦?? ©¸©¤©¤ images ..
-©À©¤©¤ Occluded_REID
-©¦?? ©¸©¤©¤ images ..
-©À©¤©¤ market1501
-©¦?? ©¸©¤©¤ images ..
-©¸©¤©¤ dukemtmcreid
-    ©¸©¤©¤ images ..
+â”œâ”€â”€ Occluded_Duke
+â”‚   â””â”€â”€ images ..
+â”œâ”€â”€ Occluded_REID
+â”‚   â””â”€â”€ images ..
+â”œâ”€â”€ market1501
+â”‚   â””â”€â”€ images ..
+â””â”€â”€ dukemtmcreid
+    â””â”€â”€ images ..
+```
 
 ### Prepare DeiT or ViT Pre-trained Models
 
@@ -54,29 +56,33 @@ python test.py --config_file 'choose which config to test' MODEL.DEVICE_ID "('yo
 ```bash
 # OCC_Duke
 python test.py --config_file configs/OCC_Duke/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')" TEST.WEIGHT './logs/occ_duke_vit_transreid_stride/transformer_150.pth'
+```
 
 #### Results
 | Dataset | Rank@1 | mAP | Model |
 | :------:  |:------: | :------: | :------: |
-|  Occluded-Duke      | 71.4   | 61.8 | model() |
-|  Occluded-REID      | 85.5   | 79.7 | model() |
+|  Occluded-Duke      | 71.4   | 61.8 | [model]() |
+|  Occluded-REID      | 85.5   | 79.7 | [model]() |
 
 ## Citation
 Please kindly cite this paper in your publications if it helps your research:
-```
-@article{tan2022dpm,
-  title={Dynamic Prototype Mask for Occluded Person Re-Identification},
-  author={Tan, Lei and Dai, Pingyang and Ji, Rongrong and Wu, Yongjian},
-  journal={arXiv preprint arXiv:2207.09046},
-  year={2022}
+```bash
+@misc{tan2022dynamic,
+      title={Dynamic Prototype Mask for Occluded Person Re-Identification}, 
+      author={Lei Tan and Pingyang Dai and Rongrong Ji and Yongjian Wu},
+      year={2022},
+      eprint={2207.09046},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
 ## Acknowledgement
-Our code is based on TransReID(https://github.com/damo-cv/TransReID)[1]
+Our code is based on [TransReID](https://github.com/damo-cv/TransReID)[1]
 
 ## References
-[1]Shuting He, Hao Luo, Pichao Wang, Fan Wang, Hao Li, and Wei Jiang. 2021. Transreid: Transformer-based object re-identification. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 15013¨C15022.
+[1]Shuting He, Hao Luo, Pichao Wang, Fan Wang, Hao Li, and Wei Jiang. 2021. Transreid: Transformer-based object re-identification. In Proceedings of the IEEE/CVF
+International Conference on Computer Vision. 15013â€“15022.
 
 ## Contact
 
