@@ -67,8 +67,10 @@ python test.py --config_file configs/OCC_Duke/dpm.yml MODEL.DEVICE_ID "('0')" TE
 #### Results
 | Dataset | Rank@1 | mAP | Model |
 | :------:  |:------: | :------: | :------: |
-|  Occluded-Duke      | 71.4   | 61.8 | [model]() |
-|  Occluded-REID      | 85.5   | 79.7 | [model]() |
+|  Occluded-Duke      | 71.4 (72.0)   | 61.8 (61.9) | [model]() |
+|  Occluded-REID      | 85.5 (86.2)   | 79.7 (80.0) | [model]() |
+
+We reorganize code and the performances are slightly higher than the paper.
 
 ## Citation
 Please kindly cite this paper in your publications if it helps your research:
