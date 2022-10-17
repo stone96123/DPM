@@ -75,13 +75,12 @@ We reorganize code and the performances are slightly higher than the paper's.
 ## Citation
 Please kindly cite this paper in your publications if it helps your research:
 ```bash
-@misc{tan2022dynamic,
-      title={Dynamic Prototype Mask for Occluded Person Re-Identification}, 
-      author={Lei Tan and Pingyang Dai and Rongrong Ji and Yongjian Wu},
-      year={2022},
-      eprint={2207.09046},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{tan2022dynamic,
+  title={Dynamic Prototype Mask for Occluded Person Re-Identification},
+  author={Tan, Lei and Dai, Pingyang and Ji, Rongrong and Wu, Yongjian},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={531--540},
+  year={2022}
 }
 ```
 
