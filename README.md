@@ -49,7 +49,9 @@ python train.py --config_file configs/dpm.yml MODEL.DEVICE_ID "('your device id'
 python train.py --config_file configs/OCC_Duke/dpm.yml MODEL.DEVICE_ID "('0')"
 ```
 
-We have set the validation set as Occluded REID when training on the Market-1501. Therefore, if you want to use the Market-1501, please modify it in the 'datasets/market1501.py'.
+1. We have set the validation set as Occluded REID when training on the Market-1501. Therefore, if you want to use the Market-1501, please modify it in the 'datasets/market1501.py'.
+
+2. Before training on the Occluded REID, please put the Rename.py under the dataset dir to rename the dataset. 
 
 
 ## Evaluation
