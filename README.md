@@ -77,12 +77,14 @@ We reorganize code and the performances are slightly higher than the paper's.
 ## Citation
 Please kindly cite this paper in your publications if it helps your research:
 ```bash
-@inproceedings{tan2022dynamic,
-  title={Dynamic Prototype Mask for Occluded Person Re-Identification},
-  author={Tan, Lei and Dai, Pingyang and Ji, Rongrong and Wu, Yongjian},
-  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
-  pages={531--540},
-  year={2022}
+@inproceedings{tan2024occluded,
+  title={Occluded person re-identification via saliency-guided patch transfer},
+  author={Tan, Lei and Xia, Jiaer and Liu, Wenfeng and Dai, Pingyang and Wu, Yongjian and Cao, Liujuan},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={38},
+  number={5},
+  pages={5070--5078},
+  year={2024}
 }
 ```
 
@@ -95,4 +97,4 @@ International Conference on Computer Vision. 15013–15022.
 
 ## Contact
 
-If you have any question, please feel free to contact us. E-mail: [tanlei@stu.xmu.edu.cn](mailto:tanlei@stu.xmu.edu.cn)
+If you have any questions, please feel free to contact us. E-mail: [tanlei@stu.xmu.edu.cn](mailto:tanlei@stu.xmu.edu.cn)
