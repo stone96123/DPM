@@ -77,14 +77,12 @@ We reorganize code and the performances are slightly higher than the paper's.
 ## Citation
 Please kindly cite this paper in your publications if it helps your research:
 ```bash
-@inproceedings{tan2024occluded,
-  title={Occluded person re-identification via saliency-guided patch transfer},
-  author={Tan, Lei and Xia, Jiaer and Liu, Wenfeng and Dai, Pingyang and Wu, Yongjian and Cao, Liujuan},
-  booktitle={Proceedings of the AAAI conference on artificial intelligence},
-  volume={38},
-  number={5},
-  pages={5070--5078},
-  year={2024}
+@inproceedings{tan2022dynamic,
+  title={Dynamic prototype mask for occluded person re-identification},
+  author={Tan, Lei and Dai, Pingyang and Ji, Rongrong and Wu, Yongjian},
+  booktitle={Proceedings of the 30th ACM international conference on multimedia},
+  pages={531--540},
+  year={2022}
 }
 ```
 
